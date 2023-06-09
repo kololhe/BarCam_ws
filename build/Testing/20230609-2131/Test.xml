@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20230609-2131-Experimental"
+	Name="AxiomMeanMachine"
+	Generator="ctest-3.26.4"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="AxiomMeanMachine"
+	OSRelease="5.15.0-73-generic"
+	OSVersion="#80~20.04.1-Ubuntu SMP Wed May 17 14:58:14 UTC 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="4882"
+	TotalPhysicalMemory="15686"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="3883.73"
+	>
+	<Testing>
+		<StartDateTime>Jun 09 16:31 CDT</StartDateTime>
+		<StartTestTime>1686346262</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 09 16:31 CDT</EndDateTime>
+		<EndTestTime>1686346262</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

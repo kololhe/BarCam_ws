@@ -2,7 +2,7 @@
 
     <arg name="resolution"    default="0"/> <!-- 0: 1280x960, 1: 1280x720, 2: 640x480, 3: 640x360 -->
     <arg name="frame_rate"    default=""/>
-    <arg name="exposure"      default="20"/>
+    <arg name="exposure"      default="90"/>
     <arg name="gain"          default="75"/>
     <arg name="wb_blue"       default="200"/>
     <arg name="wb_red"        default="160"/>
@@ -27,10 +27,7 @@
             <param name="camera_frame_id" value="right"/>
         </node>
 
-        <!-- Color rectified image -->
-        <node pkg="nodelet" type="nodelet" name="right_image_rectify_color" args="load image_proc/rectify right_nodelet_manager" respawn="true">
-            <remap from="image_rect" to="image_rect_color" />
-        </node> 
+        <node pkg="image_proc" type="image_proc" name="right_image_rectify"/>
 
     </group>
 
@@ -51,10 +48,7 @@
             <param name="camera_frame_id" value="center_left"/>
         </node>
 
-        <!-- Color rectified image -->
-        <node pkg="nodelet" type="nodelet" name="center_left_image_rectify_color" args="load image_proc/rectify center_left_nodelet_manager" respawn="true">
-            <remap from="image_rect" to="image_rect_color" />
-        </node> 
+        <node pkg="image_proc" type="image_proc" name="center_left_image_rectify"/>
 
     </group>
 
@@ -76,10 +70,7 @@
             <param name="camera_frame_id" value="center_right"/>
         </node>
 
-        <!-- Color rectified image -->
-        <node pkg="nodelet" type="nodelet" name="center_right_image_rectify_color" args="load image_proc/rectify cright_nodelet_manager" respawn="true">
-            <remap from="image_rect" to="image_rect_color" />
-        </node> 
+        <node pkg="image_proc" type="image_proc" name="center_right_image_rectify"/>
 
     </group>
 
@@ -101,10 +92,8 @@
         </node>
 
         <!-- Color rectified image -->
-        <node pkg="nodelet" type="nodelet" name="left_image_rectify_color" args="load image_proc/rectify left_nodelet_manager" respawn="true">
-            <remap from="image_rect" to="image_rect_color" />
-        </node> 
-
+        <node pkg="image_proc" type="image_proc" name="left_image_rectify"/>
+        
     </group>    
 
     <node pkg="vectornav" type="vnpub" name="vectornav" output="screen" >

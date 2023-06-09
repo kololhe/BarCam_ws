@@ -1,0 +1,2 @@
+ocam:vectornav
+-DCATKIN_DEVEL_PREFIX=/home/kololhe/BarCam_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kololhe/BarCam_ws/install -G Unix Makefiles

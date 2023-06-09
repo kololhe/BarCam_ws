@@ -1,0 +1,26 @@
+# SN_35E27195
+
+image_width: 1280
+image_height: 960
+camera_name: left 
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [963.172672971853, 0, 650.564915164728, 0, 962.9184278915212,  491.49531871777026, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.40898282668900815, 0.14743792268199518, 0.0014141311442863185, -0.0023664128905528784, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [963.172672971853, 0, 650.564915164728, 0, 0, 962.9184278915212, 491.49531871777026, 0, 0, 0, 1, 0]
+
+
+
+

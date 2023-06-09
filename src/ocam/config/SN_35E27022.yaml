@@ -1,0 +1,22 @@
+# SN_35E27022
+
+image_width: 1280
+image_height: 960
+camera_name: center_left 
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [960.8385889493075, 0, 634.2514899034987, 0, 960.0046869500272, 469.66935811611165, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.40174750803875375, 0.13769266958727314, 0.0010404159801885623, -0.0015820259013782708, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [960.8385889493075, 0, 634.2514899034987, 0, 0, 960.0046869500272, 469.66935811611165, 0, 0, 0, 1, 0]

@@ -94,7 +94,7 @@ public:
                 }
             }
         }
-        //camera->set_format(width_, height_, Withrobot::fourcc_to_pixformat('G', 'R', 'B', 'G'), 1, (unsigned int)frame_rate);
+       // camera->set_format(width_, height_, Withrobot::fourcc_to_pixformat('G', 'R', 'B', 'G'), 1, (unsigned int)frame_rate);
 
         /*
          * get current camera format (image size and frame rate)
@@ -207,7 +207,7 @@ public:
 };
 
 /**
- * @brief       the camera ros warpper class
+ * @brief       the camera ros wrapper class
  */
 class oCamROS
 {
