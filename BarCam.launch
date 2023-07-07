@@ -1,8 +1,8 @@
 <launch>
 
-    <arg name="resolution"    default="0"/> <!-- 0: 1280x960, 1: 1280x720, 2: 640x480, 3: 640x360 -->
+    <arg name="resolution"    default="3"/> <!-- 0: 1280x960, 1: 1280x720, 2: 640x480, 3: 640x360 -->
     <arg name="frame_rate"    default=""/>
-    <arg name="exposure"      default="90"/>
+    <arg name="exposure"      default="40"/>
     <arg name="gain"          default="75"/>
     <arg name="wb_blue"       default="200"/>
     <arg name="wb_red"        default="160"/>

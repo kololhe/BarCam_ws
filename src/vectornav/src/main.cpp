@@ -297,7 +297,7 @@ int main(int argc, char * argv[])
   // calculate the least common multiple of the two rate and assure it is a
   // valid package rate, also calculate the imu and output strides
   int package_rate = 0;
-  for (int allowed_rate : {1, 2, 4, 5, 10, 20, 25, 40, 50, 100, 200, 0}) {
+  for (int allowed_rate : {1, 2, 4, 5, 10, 20, 25, 40, 50, 100, 200, 400, 800, 0}) {
     package_rate = allowed_rate;
     if ((package_rate % async_output_rate) == 0 && (package_rate % imu_output_rate) == 0) break;
   }

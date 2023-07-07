@@ -18,7 +18,7 @@ imu_output_rate: 200
 fixed_imu_rate: 400
 
 # Sync Out Skip Factor, set to 0 by default
-sync_out_skip_count: 39
+sync_out_skip_count: 19
 
 # Frame id to publish data in
 frame_id: vectornav
