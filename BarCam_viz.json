@@ -1,0 +1,296 @@
+{
+  "configById": {
+    "map!41lojsx": {
+      "center": {
+        "lat": -0.0006866455077859351,
+        "lon": -0.0006866455078125
+      },
+      "customTileUrl": "",
+      "disabledTopics": [],
+      "followTopic": "",
+      "layer": "map",
+      "topicColors": {},
+      "maxNativeZoom": 18
+    },
+    "Image!3gub469": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/left/image_raw",
+        "calibrationTopic": "/left/camera_info",
+        "synchronize": false,
+        "rotation": 0,
+        "annotations": {}
+      }
+    },
+    "RawMessages!qo83k7": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/left/image_raw"
+    },
+    "Image!3utlp52": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/center_left/image_raw",
+        "calibrationTopic": "/center_left/camera_info",
+        "synchronize": false,
+        "rotation": 0,
+        "annotations": {}
+      }
+    },
+    "RawMessages!2ap9ux5": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/center_left/image_raw"
+    },
+    "Image!2480jez": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/center_right/image_raw",
+        "calibrationTopic": "/center_right/camera_info",
+        "synchronize": false,
+        "rotation": 0,
+        "annotations": {}
+      }
+    },
+    "RawMessages!l2yzhj": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/center_right/image_raw"
+    },
+    "Image!3z319tp": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/right/image_raw",
+        "calibrationTopic": "/left/camera_info",
+        "synchronize": false,
+        "rotation": 0,
+        "annotations": {}
+      }
+    },
+    "RawMessages!323dupu": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/right/image_raw"
+    },
+    "RawMessages!3oorc31": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/vectornav/GPS"
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {
+    "db46ab98-6060-48ae-b221-593205aba4ef": {
+      "sourceCode": "// The ./types module provides helper types for your Input events and messages.\nimport { Input, Message } from \"./types\";\n\n// Your script can output well-known message types, any of your custom message types, or\n// complete custom message types.\n//\n// Use `Message` to access your data source types or well-known types:\n// type Twist = Message<\"geometry_msgs/Twist\">;\n//\n// Conventionally, it's common to make a _type alias_ for your script's output type\n// and use that type name as the return type for your script function.\n// Here we've called the type `Output` but you can pick any type name.\ntype Output = {\n  hello: string;\n};\n\n// These are the topics your script \"subscribes\" to. Studio will invoke your script function\n// when any message is received on one of these topics.\nexport const inputs = [\"/input/topic\"];\n\n// Any output your script produces is \"published\" to this topic. Published messages are only visible within Studio, not to your original data source.\nexport const output = \"/studio_script/output_topic\";\n\n// This function is called with messages from your input topics.\n// The first argument is an event with the topic, receive time, and message.\n// Use the `Input<...>` helper to get the correct event type for your input topic messages.\nexport default function script(event: Input<\"/input/topic\">): Output {\n  return {\n    hello: \"world!\",\n  };\n};",
+      "name": "db46ab98"
+    }
+  },
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "direction": "row",
+    "first": {
+      "first": "map!41lojsx",
+      "second": "RawMessages!3oorc31",
+      "direction": "column"
+    },
+    "second": {
+      "first": {
+        "first": {
+          "first": "Image!3gub469",
+          "second": "RawMessages!qo83k7",
+          "direction": "column",
+          "splitPercentage": 73.24540744229864
+        },
+        "second": {
+          "first": "Image!3utlp52",
+          "second": "RawMessages!2ap9ux5",
+          "direction": "column",
+          "splitPercentage": 73.25023969319271
+        },
+        "direction": "row"
+      },
+      "second": {
+        "first": {
+          "first": "Image!2480jez",
+          "second": "RawMessages!l2yzhj",
+          "direction": "column",
+          "splitPercentage": 73.25023969319271
+        },
+        "second": {
+          "first": "Image!3z319tp",
+          "second": "RawMessages!323dupu",
+          "direction": "column",
+          "splitPercentage": 73.25023969319271
+        },
+        "direction": "row",
+        "splitPercentage": 50.24077046548956
+      },
+      "direction": "row"
+    },
+    "splitPercentage": 20.052083333333336
+  }
+}
